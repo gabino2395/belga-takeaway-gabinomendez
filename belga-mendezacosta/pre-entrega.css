@@ -1,43 +1,34 @@
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 </style>
+
+#card{
+    background-color: brown;
+}
+.card__tittle{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: rgba(236, 199, 33, 0.829);
+    font-style: oblique;
+
 }
 header{
    background-color: black;
    width: 100%;
-
-
-}
-.parrafo1{
-   color: #000000;
-}
-.mainsection{
-   width: 100%;
-   display: grid;
-  justify-content: right;
-}
-.seccion1{
-   background-color: wheat;
-  width: 100%;
   
-
 }
 
-  .imagen1{
-     padding: 1rem;
-  }
-  .imagencar-event{
-     height: 35vh;
-     object-fit: cover;
-     
-  }
-.imagencar{
-  height: 55vh;
-object-fit: cover;
 
+footer {
+   background-color: wheat;
+   display: flex;
+  
+   justify-content: center;
+ 
 }
+
 h1 {
-   animation-duration: 3s;
+   animation-duration: 2s;
    animation-name: aparecer;
    animation-iteration-count: infinite;
 }
@@ -52,72 +43,18 @@ h1 {
    }
 }
 
-.titular{
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(236, 199, 33, 0.829);
-}
 
-footer {
-   background-color: wheat;
-   display: flex;
-  
-   
- 
-}
-
-
-.grilla-footer{
-    display: grid;  
-    /* 2 columnas */
-    grid-template-columns: 200px 200px 200px 200px;
-    display: grid;
-    justify-items: center;
-    align-items:center;
-    justify-self: start;
-    grid-column-gap: 110px;
+.footer-index{
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   width: 100%;
+   display: grid;
+   justify-content: center;
+   align-items: center;
 
 }
-lista-logos{
-    justify-self: left;
-    align-content:initial;
-}
 
-.logos .lista-logos{
-    display: grid;
-    justify-items:start;
-    grid-template-columns: auto;
-    justify-self: start;
-}
-
-    
-    
-    
-}
-.belga-footer.footer-index{
-color: black;
-font-family: 'Times New Roman', Times, serif;
-font-style: italic;
-width: 100%;
-display: grid;
-justify-items: right;
-align-content: flex-end;
-}
-.belga-footer {
-    display: grid;
-    justify-items:right;
-    align-content:flex-end ;
-.delivery{
-    display: grid;
-    justify-items:start;
-    grid-template-columns:;
-    justify-self: start;  
-}
-.pagos{
-    display: grid;
-    justify-items:start;
-    grid-template-rows:inherit;
-    justify-self: start;   
-}
 header ul{
    display: flex;
    list-style: none;
@@ -143,10 +80,6 @@ header ul li{
    
    
 }
-
-
-
-
 body{
    background-color:rgba(14, 11, 11, 0.94);
 }
@@ -165,8 +98,21 @@ p{
 }
 
 
+.imagen1 {
+    font-size: 5px;
+    font-weight: 20px;
+    width: 350px;
+    left: 0%;
+}
 
-.menu {
+.imagen2 {
+    font-size: 5px;
+    font-weight: 20px;
+    width: 350px;
+    right: 0%;
+    margin-left: 40%;
+}
+ul {
     padding: 1%;
     width: 100%;
     list-style: none;
@@ -210,7 +156,45 @@ p{
      background-color: rgb(121, 116, 116);
      width: 100%;
  }
- 
+ .SALSAS{
+    color: rgb(245, 242, 237);
+ }
+ .TEXTOCARTA{
+    color: rgb(245, 242, 237);
+    font-size: 300%;
+ }
+h2{
+   color: rgba(236, 199, 33, 0.829);
+   font-size: 500%;
+   font-style: italic;
+}
+.contacto{
+   color: darkgoldenrod;
+}
+.fieldset{
+color: darkgray;
+font-size: 120%;
+}
+h4{
+   color: rgba(236, 199, 33, 0.829);
+   font-style: italic;
+   font-size: 250%;
+}
+.insta{
+   color: goldenrod;
+   font-size: 150%;
+}
+.face{
+color: goldenrod;
+font-size: 150%;
+}
+
+.imagenevento {
+   font-size: 65px;
+   font-weight: 550px;
+   width: 550px;
+   left: 0%;
+   
 }
 .DIV{
    color: goldenrod;
@@ -218,28 +202,24 @@ p{
    font-style: oblique;
    font-size: 200%;
 }
-.h2-eventos{
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: rgba(236, 199, 33, 0.829);
-
-}
-
 h3{
    color: goldenrod;
    font-size: 250%;
 }
-.image-border{
-   border-radius: 30px;
+.donde-estamos{
+   color: goldenrod;
+   font-size: 115%;
 }
-.texto-evento{
-   color: aliceblue;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.footer-contacto{
+   color: black;
+   font-style: italic; 
 }
-.section1-evento{
-   color:black;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-style: italic;
-  align-content: inherit;
+.parent-eventos{
+   display: grid;
+   align-items: center;
+
+}
+
 }
 
    /*media queries*/
