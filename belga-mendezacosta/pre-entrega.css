@@ -1,0 +1,263 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+</style>
+
+#card{
+    background-color: brown;
+}
+.card__tittle{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: rgba(236, 199, 33, 0.829);
+    font-style: oblique;
+
+}
+header{
+   background-color: black;
+   width: 100%;
+  
+}
+
+
+footer {
+   background-color: wheat;
+   display: flex;
+  
+   justify-content: center;
+ 
+}
+
+h1 {
+   animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+
+.footer-index{
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   width: 100%;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+
+}
+
+header ul{
+   display: flex;
+   list-style: none;
+}
+header ul li{
+   margin: 9px
+
+}
+
+.parent{
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   height: 100vh;
+}
+}
+.mainsection{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   width: 100%;
+   min-width: 500px;
+   background-color: red;
+   
+   
+}
+body{
+   background-color:rgba(14, 11, 11, 0.94);
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(236, 199, 33, 0.829);
+    position: fixed;
+    top: 0;
+  right: 0;
+}
+p{
+    color: rgb(245, 242, 237);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.imagen1 {
+    font-size: 5px;
+    font-weight: 20px;
+    width: 350px;
+    left: 0%;
+}
+
+.imagen2 {
+    font-size: 5px;
+    font-weight: 20px;
+    width: 350px;
+    right: 0%;
+    margin-left: 40%;
+}
+ul {
+    padding: 1%;
+    width: 100%;
+    list-style: none;
+    background-color: darkgoldenrod;
+    color: darkgray;
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:0 /* truco por el uso de inline-block*/
+    
+    
+ }
+ li a {
+    color: wheat;
+ }
+ li {
+    display: inline;
+    width: 30%;
+    position:relative;
+    font-size: 25px;
+    
+ }
+ ul ul {
+    position: absolute;
+    color:rgba(236, 199, 33, 0.829);
+
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+ .menu  :hover {
+     background-color: rgb(121, 116, 116);
+     text-decoration: none;
+     color: rgba(236, 199, 33, 0.829);
+     
+ }
+ .submenu :hover{
+     background-color: rgb(121, 116, 116);
+     width: 100%;
+ }
+ .SALSAS{
+    color: rgb(245, 242, 237);
+ }
+ .TEXTOCARTA{
+    color: rgb(245, 242, 237);
+    font-size: 300%;
+ }
+h2{
+   color: rgba(236, 199, 33, 0.829);
+   font-size: 500%;
+   font-style: italic;
+}
+.contacto{
+   color: darkgoldenrod;
+}
+.fieldset{
+color: darkgray;
+font-size: 120%;
+}
+h4{
+   color: rgba(236, 199, 33, 0.829);
+   font-style: italic;
+   font-size: 250%;
+}
+.insta{
+   color: goldenrod;
+   font-size: 150%;
+}
+.face{
+color: goldenrod;
+font-size: 150%;
+}
+
+.imagenevento {
+   font-size: 65px;
+   font-weight: 550px;
+   width: 550px;
+   left: 0%;
+   
+}
+.DIV{
+   color: goldenrod;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: oblique;
+   font-size: 200%;
+}
+h3{
+   color: goldenrod;
+   font-size: 250%;
+}
+.donde-estamos{
+   color: goldenrod;
+   font-size: 115%;
+}
+.footer-contacto{
+   color: black;
+   font-style: italic; 
+}
+.parent-eventos{
+   display: grid;
+   align-items: center;
+
+}
+
+}
+
+   /*media queries*/
+@media screen {max-width: 768px;
+  
+} .headerindex{
+   flex-direction:column
+}
+   .menu{
+      display: flex;
+      flex-direction: row;
+      list-style-type:none ;
+   }
+   .parent{
+      width: 100%;
+   }
+   .main-izq{
+      width: 100%;
+   }
+   .mein-der{width: 100%;
+
+   }
+   .main-cent{
+      width: 100%;
+   }
+   .list-eventos{
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+
+   }
+
+   @media screen and (min-width:1024px) {
+      .submenu {
+              background-color: #000000;
+        }
+     
+   
+  }
+
+   
