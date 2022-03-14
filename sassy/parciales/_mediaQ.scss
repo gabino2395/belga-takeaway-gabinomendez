@@ -1,0 +1,44 @@
+
+  /*media queries*/
+  @media screen (max-width:768px){
+ .headerindex{
+        flex-direction:column
+  }
+}
+  
+     .menu{
+        display: flex;
+        flex-direction: row;
+        list-style-type:none ;
+     }
+     .parent{
+        width: 100%;
+     }
+     .main-izq{
+        width: 100%;
+     }
+     .mein-der{width: 100%;
+  
+     }
+     .main-cent{
+        width: 100%;
+     }
+     .list-eventos{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+  
+     }
+  
+     @media screen and (min-width:1024px) {
+        .submenu {
+                background-color: #000000;
+          }
+       
+     
+    }
+    @media(max-width : 480px){
+      form{
+        width: 100%;
+      }
+      }

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import"./parciales/header";
+@import"./parciales/tittle";
+@import"./parciales/imagen";
+@import"./parciales/mainsection";
+@import"./parciales/estilos-texto";
+@import"./parciales/estilos";
+@import"./parciales/footer";
+@import"./parciales/estilos-carta";
+@import"./parciales/mediaQ";
+
+
+
+.footer {
+  background-color: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__grilla-footer {
+  display: -ms-grid;
+  display: grid;
+  /* 2 columnas */
+  -ms-grid-columns: 200px 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px 200px;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  grid-column-gap: 110px;
+}
+
+.footer .footer__logos .footer__lista-logos {
+  padding: 1rem;
+  border: 2rem;
+  border-radius: 30px;
+}
+
+.footer .footer__belga-footer.footer__footer-index {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: right;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.footer .footer__belga-footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: right;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.footer .footer__logo-app {
+  border-radius: 30px;
+}
+
+
+
+.footer .footer__pagos {
+  display: -ms-grid;
+  display: grid;
+  justify-items: start;
+  -ms-grid-rows: inherit;
+      grid-template-rows: inherit;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+
+
+
+
+
+ 
+ 
+   
+ 
+ 
+  
