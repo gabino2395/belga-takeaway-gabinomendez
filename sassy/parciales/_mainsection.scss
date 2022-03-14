@@ -3,7 +3,8 @@
     display: grid;
    justify-content: right;
    &__seccion1{
-      background-color: wheat;
+    color: wheat
+    ;
      width: 100%;
  }
  &__parrafo1{
@@ -15,9 +16,9 @@
 display: flex;
 padding: 10%;
 justify-content: center;
-
+color: aliceblue;
  }
- .mainsection__parrafo2{
+ .mainsection__parrafo2 .texto-evento{
     color: azure;
  }
  
