@@ -105,70 +105,20 @@ body {
 }
 
 footer {
-  background-color: wheat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  background-color: rgb(36, 33, 28);
+ 
+
 }
 
-footer .footer__grilla-footer {
-  display: -ms-grid;
-  display: grid;
-  /* 2 columnas */
-  -ms-grid-columns: 200px 200px 200px 200px;
-      grid-template-columns: 200px 200px 200px 200px;
-  display: grid;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-grid-column-align: start;
-      justify-self: start;
-  grid-column-gap: 110px;
-}
 
-footer .footer__logos .footer__lista-logos {
-  padding: 1rem;
-  border: 2rem;
+
+
+.logo{
   border-radius: 30px;
 }
 
-footer .footer__belga-footer.footer__footer-index {
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  justify-items: right;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
-}
+ 
 
-footer .footer__belga-footer {
-  display: -ms-grid;
-  display: grid;
-  justify-items: right;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
-}
-
-footer .footer__logo-app {
-  border-radius: 30px;
-}
-
-
-  
-  
-  footer .footer__pagos {
-  display: -ms-grid;
-  display: grid;
-  justify-items: start;
-  -ms-grid-rows: inherit;
-      grid-template-rows: inherit;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
 
 .intento {
   background-image: url(./);
@@ -288,7 +238,6 @@ input {
     background-color: #000000;
   }
 }
-
 .box {
   height: 300px;
   width: 300px;
@@ -338,19 +287,26 @@ border-radius: 7px;
 }
 .mainsection__seccion1-carta{
  background-image: url(./pictures/imagen3-evento-carr.jpg);
-  background-size: 180vh 100vw;
+  background-size: 200vh 100vw;
   background-attachment: fixed;
-  
- 
 
 }
-.imagen2{
+.imagen2:{
   padding: 1rem;
-}.imagencar-event{
+}
+
+.hover:hover{
+  font-size: 125%;
+  cursor: pointer;
+  size: 134em;
+  color: #231E39;
+  transform: translate(20px,5px) ;
+}
+
+.imagencar-event{
   height: 35vh;
   object-fit: cover;
-  
-}
+} 
 .image-border2{
   border-radius: 25px;
 }
@@ -359,6 +315,7 @@ border-radius: 7px;
 object-fit: cover;
 
 }
+
 .box2{
   
     height: 400px;
@@ -486,5 +443,4 @@ button.primary.ghost {
 	margin: 0 7px 7px 0;
 	padding: 7px;
 }
-
 
