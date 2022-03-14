@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import"./sassy/parciales/header";
+@import"./sassy/parciales/tittle";
+@import"./sassy/parciales/imagen";
+@import"./sassy/parciales/mainsection";
+@import"./sassy/parciales/estilos-texto";
+@import"./sassy/parciales/estilos";
+@import"./sassy/parciales/footer";
+@import"./sassy/parciales/formulario";
+@import"./sassy/parciales/estilos-carta";
+@import"./sassy/parciales/mediaQ";
+
+
+
+@mixin sizes($width, $height) {
+  height: $height;
+  width: $width;
+}
+.box {
+  @include sizes(300px, 300px);
+}
+
+  
+
+ 
+ 
+   
+ 
+ 
+  

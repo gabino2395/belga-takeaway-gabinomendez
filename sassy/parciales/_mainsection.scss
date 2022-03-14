@@ -1,0 +1,22 @@
+.mainsection{
+    width: 100%;
+    display: grid;
+   justify-content: right;
+   &__seccion1{
+      background-color: wheat;
+     width: 100%;
+ }
+ &__parrafo1{
+    color: #000000;
+ }
+ }
+ .textos {
+display: flex;
+padding: 10%;
+justify-content: center;
+
+ }
+ .mainsection__parrafo2{
+    color: azure;
+ }
+ 
